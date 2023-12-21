@@ -34,7 +34,7 @@
   </p>
     </p>
 <div align="center">
-  <a href="https://youtu.be/mI8RJ_f3Csw"><img src="./figures/teaser.gif" alt="DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis"></a>
+  <a href="https://youtu.be/mI8RJ_f3Csw"><img src="./Figures/teaser.gif" alt="DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis"></a>
 </div>
 
 
