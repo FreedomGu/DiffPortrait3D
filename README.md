@@ -18,7 +18,7 @@
     ·  
     <a href="https://jingyangcarl.com"><strong>Jing Yang</strong></a><sup>1</sup>
     ·
-    <a href="https://linjieluo.com"><strong>Linjie Luo</strong></a><sup>2</sup>
+    <a href="http://linjieluo.com"><strong>Linjie Luo</strong></a><sup>2</sup>
     ·
     <br>
     <sup>1</sup>University of Southern California &nbsp;&nbsp;&nbsp; <sup>2</sup>ByteDance Inc.
