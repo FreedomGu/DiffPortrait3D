@@ -25,10 +25,10 @@
     <br>
     </br>
         <a href="https://arxiv.org/abs/2312.13016">
-        <img src='https://img.shields.io/badge/arXiv-DiffPortrait3D-green' alt='Paper PDF'>
+        <img src='https://img.shields.io/badge/arXiv-DiffPortrait3D-green' alt='Paper_PDF'>
         </a>
         <a href='https://freedomgu.github.io/diffportrait3d'>
-        <img src='https://img.shields.io/badge/ProjectPage-DiffPortrait3D-blue' alt='Project Page'>
+        <img src='https://img.shields.io/badge/Project_Page-DiffPortrait3D-blue' alt='Project_Page'>
         </a>
         <a href='https://youtu.be/mI8RJ_f3Csw'>
         <img src='https://img.shields.io/badge/YouTube-DiffPortrait3D-red' alt='Youtube'></a>
