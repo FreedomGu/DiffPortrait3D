@@ -35,7 +35,7 @@
     </p>
 <div align="center">
 <a href="https://youtu.be/mI8RJ_f3Csw"><video id="matting-video" autoplay muted loop playsinline height="100%">
-        <source src="./Figures/teaser.mp4"
+        <source src="./Figures/video_teaser.png"
                 type="video/mp4"></video> </a>
 </div>
 
