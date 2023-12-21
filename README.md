@@ -27,7 +27,7 @@
         <a href="https://arxiv.org/abs/2312.13016">
         <img src='https://img.shields.io/badge/arXiv-DiffPortrait3D-green' alt='Paper PDF'>
         </a>
-        <a href='https://freedomgu.github.io/diffportrait3d'>
+        <a href='https://github.com/FreedomGu/DiffPortrait3D'>
         <img src='https://img.shields.io/badge/Project_Page-DiffPortrait3D-blue' alt='Project Page'></a>
         <a href='https://youtu.be/mI8RJ_f3Csw'>
         <img src='https://img.shields.io/badge/YouTube-DiffPortrait3D-rgb(255, 0, 0)' alt='Youtube'></a>
