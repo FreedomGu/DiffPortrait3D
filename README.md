@@ -18,14 +18,15 @@
     ·  
     <a href="https://jingyangcarl.com"><strong>Jing Yang</strong></a><sup>1</sup>
     ·
-    <a href="https://linjieluo.com"><strong>Linjie Luo</strong></a><sup>2</sup>
+    <a href="http://linjieluo.com"><strong>Linjie Luo</strong></a><sup>2</sup>
     ·
     <br>
     <sup>1</sup>University of Southern California &nbsp;&nbsp;&nbsp; <sup>2</sup>ByteDance Inc.
     <br>
     </br>
         <a href="https://arxiv.org/abs/2312.13016">
-        <img src='https://img.shields.io/badge/arXiv-DiffPortrait3D-green' alt='Paper PDF'></a>
+        <img src='https://img.shields.io/badge/arXiv-DiffPortrait3D-green' alt='Paper PDF'>
+        </a>
         <a href='https://github.com/FreedomGu/DiffPortrait3D'>
         <img src='https://img.shields.io/badge/Project_Page-DiffPortrait3D-blue' alt='Project Page'></a>
         <a href='https://youtu.be/VPJe6TyrT-Y'>
@@ -33,7 +34,7 @@
   </p>
     </p>
 <div align="center">
-  <a href="https://youtu.be/mI8RJ_f3Csw"><img src="./teaser_1.gif" alt="DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis"></a>
+  <a href="https://youtu.be/mI8RJ_f3Csw"><img src="./figures/teaser.gif" alt="DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis"></a>
 </div>
 
 
