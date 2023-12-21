@@ -28,9 +28,10 @@
         <img src='https://img.shields.io/badge/arXiv-DiffPortrait3D-green' alt='Paper PDF'>
         </a>
         <a href='https://freedomgu.github.io/diffportrait3d'>
-        <img src='https://img.shields.io/badge/Project_Page-DiffPortrait3D-blue' alt='Project Page'></a>
+        <img src='https://img.shields.io/badge/ProjectPage-DiffPortrait3D-blue' alt='Project Page'>
+        </a>
         <a href='https://youtu.be/mI8RJ_f3Csw'>
-        <img src='https://img.shields.io/badge/YouTube-DiffPortrait3D-rgb(255, 0, 0)' alt='Youtube'></a>
+        <img src='https://img.shields.io/badge/YouTube-DiffPortrait3D-red' alt='Youtube'></a>
   </p>
     </p>
 <div align="center">
