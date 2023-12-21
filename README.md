@@ -33,6 +33,7 @@
         <img src='https://img.shields.io/badge/YouTube-DiffPortrait3D-rgb(255, 0, 0)' alt='Youtube'></a>
   </p>
     </p>
+<div align="center">
   <a href="https://youtu.be/mI8RJ_f3Csw"><img src="./teaser_1.gif" alt="DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis"></a>
 </div>
 
