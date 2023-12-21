@@ -4,46 +4,40 @@
 
   <h2 align="center">DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis</h2>
   <p align="center">
-    <a href="https://boese0601.github.io/"><strong>Yuming Gu</strong></a><sup>1</sup>
+    <a href="https://www.yuming-gu.com/"><strong>Yuming Gu</strong></a><sup>1,2</sup>
+    · 
+    <a href="https://hongyixu37.github.io/homepage/"><strong>Hongyi Xu</strong></a><sup>2</sup>
+    · 
+    <a href="https://ge.in.tum.de/about/you-xie/"><strong>You Xie</strong></a><sup>2</sup>
+    ·
+    <a href="https://guoxiansong.github.io/homepage/index.html"><strong>Guoxian Song</strong></a><sup>2</sup>
+    ·
+    <a href="https://seasonsh.github.io/"><strong>Yichun Shi</strong></a><sup>2</sup>
+    ·
+    <br><a href="https://boese0601.github.io"><strong>Di Chang</strong></a><sup>1,2</sup>
     ·  
-    <a href="https://seasonsh.github.io/"><strong>Hongyi Xu</strong></a><sup>2</sup>
+    <a href="https://jingyangcarl.com"><strong>Jing Yang</strong></a><sup>1</sup>
     ·
-    <a href="https://zerg-overmind.github.io/"><strong>You Xie</strong></a><sup>1</sup>
-    ·
-    <a href="https://www.linkedin.com/in/jessica-fu-60a504254/"><strong>Guoxian Song</strong></a><sup>1</sup>
-    ·
-    <a href="https://hongyixu37.github.io/homepage/"><strong>Yichun Shi</strong></a><sup>2</sup>
-    ·
-    <br><a href="https://guoxiansong.github.io/homepage/index.html"><strong>Di Chang</strong></a><sup>2</sup>
-    ·  
-    <a href="https://scholar.google.com/citations?user=0TIYjPAAAAAJ&hl=en"><strong>Jing Yang</strong></a><sup>2</sup>
-    ·
-    <a href="https://scholar.google.com/citations?user=_MAKSLkAAAAJ&hl=en"><strong>Lingjie Luo</strong></a><sup>2</sup>
-    ·
-    <a href="https://www.ihp-lab.org/"><strong>Mohammad Soleymani</strong></a><sup>1</sup>
+    <a href="https://linjieluo.com"><strong>Linjie Luo</strong></a><sup>2</sup>
     ·
     <br>
     <sup>1</sup>University of Southern California &nbsp;&nbsp;&nbsp; <sup>2</sup>ByteDance Inc.
     <br>
     </br>
-        <a href="https://arxiv.org/abs/2311.12052">
-        <img src='https://img.shields.io/badge/arXiv-MagicDance-green' alt='Paper PDF'>
+        <a href="https://arxiv.org/abs/2312.13016">
+        <img src='https://img.shields.io/badge/arXiv-DiffPortrait3D-green' alt='Paper PDF'>
         </a>
-        <a href='https://boese0601.github.io/magicdance/'>
-        <img src='https://img.shields.io/badge/Project_Page-MagicDance-blue' alt='Project Page'></a>
-        <a href='https://youtu.be/VPJe6TyrT-Y'>
-        <img src='https://img.shields.io/badge/YouTube-MagicDance-rgb(255, 0, 0)' alt='Youtube'></a>
+        <a href='https://freedomgu.github.io/diffportrait3d'>
+        <img src='https://img.shields.io/badge/Project_Page-DiffPortrait3D-blue' alt='Project Page'></a>
+        <a href='https://youtu.be/mI8RJ_f3Csw'>
+        <img src='https://img.shields.io/badge/YouTube-DiffPortrait3D-rgb(255, 0, 0)' alt='Youtube'></a>
   </p>
     </p>
 <div align="center">
-  <a href="https://youtu.be/VPJe6TyrT-Y"><img src="./figures/video_play.png" alt="MagicDance: Realistic Human Dance Video Generation with Motions & Facial Expressions Transfer"></a>
+  <a href="https://youtu.be/mI8RJ_f3Csw"><img src="./figures/video_teaser.png" alt="DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis"></a>
 </div>
 
-*We propose MagicDance, a novel and effective approach to provide realistic human video generation enabling vivid motion and
-facial expression transfer, and consistent 2D cartoon-style animation zero-shot generation without any fine-tuning. Thanks to MagicDance,
-we can precisely generate appearance-consistent results, while the original T2I model (e.g., Stable Diffusion and ControlNet) can hardly
-maintain the subject identity information accurately. Furthermore, our proposed modules can be treated as an extension/plug-in to the
-original T2I model without modifying its pre-trained weight.*
+*We present DiffPortrait3D, a conditional diffusion model that is capable of synthesizing 3D-consistent photo-realistic novel views from as few as a single in-the-wild portrait. Specifically, given a single RGB input, we aim to synthesize plausible but consistent facial details rendered from novel camera views with retained both identity and facial expression. In lieu of time-consuming optimization and fine-tuning, our zero-shot method generalizes well to arbitrary face portraits with unposed camera views, extreme facial expressions, and diverse artistic depictions. At its core, we leverage the generative prior of 2D diffusion models pre-trained on large-scale image datasets as our rendering backbone, while the denoising is guided with disentangled attentive control of appearance and camera pose. To achieve this, we first inject the appearance context from the reference image into the self-attention layers of the frozen UNets. The rendering view is then manipulated with a novel conditional control module that interprets the camera pose by watching a condition image of a crossed subject from the same view. Furthermore, we insert a trainable cross-view attention module to enhance view consistency, which is further strengthened with a novel 3D-aware noise generation process during inference. We demonstrate state-of-the-art results both qualitatively and quantitatively on our challenging in-the-wild and multi-view benchmarks.*
 
 <!-- *For avatar-centric video generation and animation, please also check our latest work <a href="">MagicAvatar</a>!* -->
 
@@ -51,11 +45,11 @@ original T2I model without modifying its pre-trained weight.*
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-@misc{chang2023magicdance,
-      title={MagicDance: Realistic Human Dance Video Generation with Motions & Facial Expressions Transfer}, 
-      author={Di Chang and Yichun Shi and Quankai Gao and Jessica Fu and Hongyi Xu and Guoxian Song and Qing Yan and Xiao Yang and Mohammad Soleymani},
+@misc{gu2023diffportrait3d,
+      title={DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis}, 
+      author={Yuming Gu and Hongyi Xu and You Xie and Guoxian Song and Yichun Shi and Di Chang and Jing Yang and Lingjie Luo},
       year={2023},
-      eprint={2311.12052},
+      eprint={2312.13016},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
@@ -64,9 +58,9 @@ If you find our work useful, please consider citing:
 
 ## Acknowledgments
 
-Our code follows several excellent repositories. We appreciate them for making their codes available to the public. We also appreciate the help from [Tan Wang](https://github.com/Wangt-CN), who offered assistance to our baselines comparison experiment.
-
-* [DisCo](https://github.com/Wangt-CN/DisCo)
+Our code follows several excellent repositories. We appreciate them for making their codes available to the public.
+* [EG3D](https://nvlabs.github.io/eg3d/)
+* [PanoHead](https://github.com/SizheAn/PanoHead)
 * [AnimateDiff](https://github.com/guoyww/AnimateDiff)
 * [ControlNet](https://github.com/lllyasviel/ControlNet)
 
