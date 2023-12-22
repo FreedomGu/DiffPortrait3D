@@ -29,7 +29,7 @@
         </a>
         <a href='https://freedomgu.github.io/DiffPortrait3D/'>
         <img src='https://img.shields.io/badge/Project_Page-DiffPortrait3D-blue' alt='Project Page'></a>
-        <a href='https://youtu.be/VPJe6TyrT-Y'>
+        <a href='https://www.youtube.com/watch?v=mI8RJ_f3Csw'>
         <img src='https://img.shields.io/badge/YouTube-DiffPortrait3D-rgb(255, 0, 0)' alt='Youtube'></a>
   </p>
     </p>
