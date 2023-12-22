@@ -6,9 +6,9 @@
   <p align="center">
     <a href="https://www.yuming-gu.com/"><strong>Yuming Gu</strong></a><sup>1,2</sup>
     · 
-    <a href="https://hongyixu37.github.io/homepage/"><strong>Hongyi Xu</strong></a><sup>2</sup>
-    · 
     <a href="https://ge.in.tum.de/about/you-xie/"><strong>You Xie</strong></a><sup>2</sup>
+    · 
+    <a href="https://hongyixu37.github.io/homepage/"><strong>Hongyi Xu</strong></a><sup>2</sup>
     ·
     <a href="https://guoxiansong.github.io/homepage/index.html"><strong>Guoxian Song</strong></a><sup>2</sup>
     ·
