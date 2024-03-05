@@ -23,6 +23,7 @@
     <br>
     <sup>1</sup>University of Southern California &nbsp;&nbsp;&nbsp; <sup>2</sup>ByteDance Inc.
     <br>
+    <b>CVPR 2024</b>
     </br>
         <a href="https://arxiv.org/abs/2312.13016">
         <img src='https://img.shields.io/badge/arXiv-DiffPortrait3D-green' alt='Paper PDF'>
