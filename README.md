@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <h2 align="center">DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis</h2>
+  <h2 align="center">DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis (CVPR 2024)</h2>
   <p align="center">
     <a href="https://www.yuming-gu.com/"><strong>Yuming Gu</strong></a><sup>1,2</sup>
     · 
@@ -23,7 +23,6 @@
     <br>
     <sup>1</sup>University of Southern California &nbsp;&nbsp;&nbsp; <sup>2</sup>ByteDance Inc.
     <br>
-    <b>CVPR 2024</b>
     </br>
         <a href="https://arxiv.org/abs/2312.13016">
         <img src='https://img.shields.io/badge/arXiv-DiffPortrait3D-green' alt='Paper PDF'>
