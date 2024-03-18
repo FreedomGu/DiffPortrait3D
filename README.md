@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <h2 align="center">DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis (CVPR 2024)</h2>
+  <h2 align="center">[CVPR 2024]DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis </h2>
   <p align="center">
     <a href="https://www.yuming-gu.com/"><strong>Yuming Gu</strong></a><sup>1,2</sup>
     · 
@@ -38,11 +38,47 @@
 </div>
 
 
-*We present DiffPortrait3D, a conditional diffusion model that is capable of synthesizing 3D-consistent photo-realistic novel views from as few as a single in-the-wild portrait. Specifically, given a single RGB input, we aim to synthesize plausible but consistent facial details rendered from novel camera views with retained both identity and facial expression. In lieu of time-consuming optimization and fine-tuning, our zero-shot method generalizes well to arbitrary face portraits with unposed camera views, extreme facial expressions, and diverse artistic depictions. At its core, we leverage the generative prior of 2D diffusion models pre-trained on large-scale image datasets as our rendering backbone, while the denoising is guided with disentangled attentive control of appearance and camera pose. To achieve this, we first inject the appearance context from the reference image into the self-attention layers of the frozen UNets. The rendering view is then manipulated with a novel conditional control module that interprets the camera pose by watching a condition image of a crossed subject from the same view. Furthermore, we insert a trainable cross-view attention module to enhance view consistency, which is further strengthened with a novel 3D-aware noise generation process during inference. We demonstrate state-of-the-art results both qualitatively and quantitatively on our challenging in-the-wild and multi-view benchmarks.*
+<!-- *We present DiffPortrait3D, a conditional diffusion model that is capable of synthesizing 3D-consistent photo-realistic novel views from as few as a single in-the-wild portrait. Specifically, given a single RGB input, we aim to synthesize plausible but consistent facial details rendered from novel camera views with retained both identity and facial expression. In lieu of time-consuming optimization and fine-tuning, our zero-shot method generalizes well to arbitrary face portraits with unposed camera views, extreme facial expressions, and diverse artistic depictions. At its core, we leverage the generative prior of 2D diffusion models pre-trained on large-scale image datasets as our rendering backbone, while the denoising is guided with disentangled attentive control of appearance and camera pose. To achieve this, we first inject the appearance context from the reference image into the self-attention layers of the frozen UNets. The rendering view is then manipulated with a novel conditional control module that interprets the camera pose by watching a condition image of a crossed subject from the same view. Furthermore, we insert a trainable cross-view attention module to enhance view consistency, which is further strengthened with a novel 3D-aware noise generation process during inference. We demonstrate state-of-the-art results both qualitatively and quantitatively on our challenging in-the-wild and multi-view benchmarks.* -->
 
 <!-- *For avatar-centric video generation and animation, please also check our latest work <a href="">MagicAvatar</a>!* -->
 
- 
+## News
+* **[2024.03.18]** Release code.
+* **[2024.02.26]** <span style="color:red">**Congratulations to our team!**</span> Our paper has been accepted to <span > <b>CVPR2024</b></span>, see you in Seattle! 
+
+* **[2023.12.28]** Release Diffportrait3D paper and project page.
+
+## Getting Started
+
+For pretrained checkpoint please download from google drive from [here](https://drive.google.com/file/d/14qzipHghFrs4CFpVo1xW9CZt8OGLJf9t/view?usp=drive_link).
+
+Place the pretrained weights as following:
+
+```bash
+DiffPortrait3D
+  |----checkpoints
+    |----model_state-540000-001.th
+```
+
+## Environment
+The environment from my machine is ```Python 3.8.5``` ```CUDA 11.7```. It's possible to have other compatible version.
+
+
+```bash
+conda env create -f diffportrait3D.yml
+conda activate diffportrait3D
+```
+
+We test our code on NVIDIA V100, NVIDIA A100, NVIDIA A6000.
+## Inference with small example_data:
+```bash 
+bash script/CVPR_Inference/inference_sample.sh
+```
+## Inference with your own in-the-wild data:
+
+Due to company IP Policy, we cannot release the 3D aware noise model. In this case, we highly encourage you to acheive the 3D Aware Noise from other pretrained 3D GAN method. Models like [GOAE](https://github.com/jiangyzy/GOAE), [Triplanenet](https://github.com/anantarb/triplanenet) could also be a very good 3D-aware noise initial. Please also refer to [EG3D](https://nvlabs.github.io/eg3d/) to generate aligned camera condition.
+
+
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
@@ -56,6 +92,9 @@ If you find our work useful, please consider citing:
 }
 ```
 
+## Development
+
+This research reference implementation is treated as a one-time code drop. Therefore, we may be slow in accepting external code contributions through pull requests.
 
 ## Acknowledgments
 
