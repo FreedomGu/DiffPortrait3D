@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <h2 align="center">[CVPR 2024 Highlight!]DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis </h2>
+  <h2 align="center">[CVPR'24 Highlight]DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis </h2>
   <p align="center">
     <a href="https://www.yuming-gu.com/"><strong>Yuming Gu</strong></a><sup>1,2</sup>
     · 
@@ -44,7 +44,7 @@
 
 ## News
 * **[2024.03.18]** Release code.
-* **[2024.02.26]** 🟥Congratulations to our team!</span> Our paper has been accepted to <span> CVPR2024 <b style="color: red;">Highlight</b></span>, see you in Seattle! 
+* **[2024.02.26]** Congratulations to our team!</span> Our paper has been accepted to <span> CVPR2024 <b style="color: red;">Highlight</b></span>, see you in Seattle! 
 
 * **[2023.12.28]** Release Diffportrait3D paper and project page.
 
