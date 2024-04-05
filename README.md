@@ -44,7 +44,7 @@
 
 ## News
 * **[2024.03.18]** Release code.
-* **[2024.02.26]** <span style="color:red;">**Congratulations to our team!**</span> Our paper has been accepted to <span> CVPR2024 <b style="color: red;">Highlight</b></span>, see you in Seattle! 
+* **[2024.02.26]** 🟥Congratulations to our team!</span> Our paper has been accepted to <span> CVPR2024 <b style="color: red;">Highlight</b></span>, see you in Seattle! 
 
 * **[2023.12.28]** Release Diffportrait3D paper and project page.
 
