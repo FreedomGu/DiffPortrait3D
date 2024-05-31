@@ -82,16 +82,13 @@ Due to company IP Policy, we cannot release the 3D aware noise model. In this ca
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-@misc{gu2023diffportrait3d,
+@inproceedings{gu2024diffportrait3d,
       title={DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis}, 
       author={Yuming Gu and Hongyi Xu and You Xie and Guoxian Song and Yichun Shi and Di Chang and Jing Yang and Lingjie Luo},
-      year={2023},
-      eprint={2312.13016},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year={2024}
 }
 ```
-
 ## Development
 
 This research reference implementation is treated as a one-time code drop. Therefore, we may be slow in accepting external code contributions through pull requests.
