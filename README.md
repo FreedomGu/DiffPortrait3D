@@ -4,7 +4,7 @@
 
   <h2 align="center">[CVPR'24 Highlight]DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis </h2>
   <p align="center">
-    <a href="https://www.yuming-gu.com/"><strong>Yuming Gu</strong></a><sup>1,2</sup>
+    <a href="https://freedomgu.github.io"><strong>Yuming Gu</strong></a><sup>1,2</sup>
     · 
     <a href="https://ge.in.tum.de/about/you-xie/"><strong>You Xie</strong></a><sup>2</sup>
     · 
